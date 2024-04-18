@@ -1,0 +1,18 @@
+public class primeOReven {
+    public static void main(String[] args) {
+        int num = 100;
+        int counteven = 0;
+        int countodd = 0;
+        int i;
+        for (i = 0; i <= num; i++) {
+            {
+                if (i % 2 == 0) {
+                    counteven++;
+                } else if (i % 2 != 0) {
+                    countodd++;
+                }
+            }
+        }
+        System.out.println("count of even="+counteven);
+        System.out.println("count of odd="+countodd);}
+    }
